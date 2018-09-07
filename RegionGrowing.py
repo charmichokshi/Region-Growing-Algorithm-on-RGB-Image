@@ -200,11 +200,11 @@ if __name__ == '__main__':
     h=int(height/3)
     w=int(width/3)
 
-    seed = [(0, 0), (0, w), (2*w, 0), (h, 0), (h, w), (h,2*w), (2*h, 0), (2*h, w), (2*h, 2*w)]
+    seed = [(0, 0), (0, w), (2*w, 0), (h, 0), (h, w), (h,2*w), (2*h, 0), (2*h, w), (2*h, 2*w)]    #stating seed points
 
-    pool = Pool(processes=9)
-    pool.map(start_code, seed)
+    pool = Pool(processes=9)    
+    pool.map(start_code, seed)     
     pool.close()
     pool.join()
 
-    join_img()
+    join_img()        #calling function to merge all the 9 images
