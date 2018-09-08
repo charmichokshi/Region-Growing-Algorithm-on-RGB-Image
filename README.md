@@ -10,4 +10,4 @@ Use Function region_growing() to just implement region growing algorithm on a si
 
 Methodology:
 
-![alt text](G:\ML\SAC ISRO\methodology2.PNG)
+![alt text](https://github.com/charmichokshi/Region-Growing/blob/master/methodology2.PNG)
