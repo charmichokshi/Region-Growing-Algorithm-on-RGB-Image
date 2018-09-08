@@ -7,3 +7,7 @@ Input:  Colour Image (1.tif)
 Output: Precisely segmented Image (out.tif)
     
 Use Function region_growing() to just implement region growing algorithm on a single coloured image.
+
+Methodology:
+
+![alt text](G:\ML\SAC ISRO\methodology2.PNG)
